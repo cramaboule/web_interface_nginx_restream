@@ -1,6 +1,6 @@
 # webinterface_nginx_retream
 
-Simple web interface to change Facebook and Youtube streamkey
+Simple web interface to change Facebook and Youtube streamkey with basic password in Apache module ```.htacess```
 
 In your ```/etc/nginx/nginx.conf```
 
