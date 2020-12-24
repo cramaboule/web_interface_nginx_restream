@@ -20,6 +20,7 @@ Server: rtmp://<<ngnix server IP address>>/live
 Stream Key: test
 ```
 I even set an Dynamics DNS with my provider, and NAT, thus accessible from anywher.
+
 I set up as well a `Let's Encrypt` certificate.
 
 Enjoy
