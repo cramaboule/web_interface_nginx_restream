@@ -1,4 +1,4 @@
-# webinterface_nginx_restream
+# web_interface_nginx_restream
 
 Simple web interface to change Facebook and Youtube streamkey with basic password in Apache module ```.htaccess``` for raspberry pi restrem server.
 
