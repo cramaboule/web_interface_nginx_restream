@@ -9,6 +9,8 @@ In your ```/etc/nginx/nginx.conf```, add the following in the include section:
 I have setup an stunnel for Facebook live, you can follow this tuto: it is for Ubuntu but it is similar for Raspberry pi:
 https://sites.google.com/view/facebook-rtmp-to-rtmps/home
 
+
+
 On OBS or Atem:
 ```
 Service: Custom
