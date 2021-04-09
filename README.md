@@ -1,7 +1,7 @@
 # web interface for nginx restream server
 
 Simple web interface to change Facebook and Youtube streamkey with basic password in Apache module ```.htaccess``` for raspberry pi restrem server.
-Put all files to the root of your server (or all in subfolder such as (www.exemple.com/stream), rename ```htaccess``` to ```.htaccess```.
+Put all files to the root of your server (or in subfolder such as (www.exemple.com/stream), rename ```htaccess``` to ```.htaccess```.
 
 Add basic Authentication in Nginx: https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
 
