@@ -4,11 +4,9 @@ Simple web interface to change Facebook and Youtube streamkey with basic passwor
 
 In your ```/etc/nginx/nginx.conf```, add the following in the include section:
 
-```include /var/www/html/stream/restream.conf;```
+```include /var/www/html/stream/restream.conf;``` (for www.exemple.com/stream) or wherever you put your restream.conf file.
 
-or wherever your put your restream.conf file.
-
-I have setup an stunnel for Facebook live, you can follow this tuto: it is for Ubuntu but it is similar for Raspberry pi
+I have setup an stunnel for Facebook live, you can follow this tuto: it is for Ubuntu but it is similar for Raspberry pi:
 https://sites.google.com/view/facebook-rtmp-to-rtmps/home
 
 On OBS or Atem:
