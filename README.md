@@ -22,6 +22,7 @@ I even set an Dynamics DNS with my provider with `ddclient`, and NAT, thus acces
 https://samhobbs.co.uk/2015/01/dynamic-dns-ddclient-raspberry-pi-and-ubuntu
 
 I set up as well a `Let's Encrypt` certificate.
+https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
 
 Enjoy
 
