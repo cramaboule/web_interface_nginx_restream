@@ -6,7 +6,7 @@ Simple web interface (with bootstrap) to change Facebook and Youtube streamkey w
 
 1. Setup a RTMP restream server with stunnel (for Facebook live), you can follow this tuto for Raspberry pi: https://streamglobe.nl/2020/12/04/build-a-raspberry-pi-restream-device/
 2. Add basic Authentication in Nginx: https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
-3.Now it is time to setup the web interface: In your ```/etc/nginx/nginx.conf```, add the following in the include section: ```include /var/www/html/stream/restream.conf;``` (for www.exemple.com/stream) or wherever you put your restream.conf file.
+3. Now it is time to setup the web interface: In your ```/etc/nginx/nginx.conf```, add the following in the include section: ```include /var/www/html/stream/restream.conf;``` (for www.exemple.com/stream) or wherever you put your restream.conf file.
 4. Put all files to the root of your server (or in subfolder ```/var/www/html/stream/``` for (www.exemple.com/stream), rename ```htaccess``` to ```.htaccess```. 
 
 Et Voilà !
