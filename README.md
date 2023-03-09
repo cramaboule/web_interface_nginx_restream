@@ -4,7 +4,7 @@
 
 Simple web interface (with bootstrap) to change Facebook and Youtube streamkey with basic password in Apache module ```.htaccess``` for raspberry pi restrem server. (works on my 3b+)
 
-1. Setup a RTMP restream server with stunnel (for Facebook live), you can follow this tuto for Raspberry pi: https://streamglobe.nl/2020/12/04/build-a-raspberry-pi-restream-device/
+1. Setup a RTMP restream server with stunnel (for Facebook live), you can follow this tuto for Raspberry pi: https://gist.github.com/xiCO2k/e378be37e933b3f5c6c106ba149f34af
 2. Add basic Authentication in Nginx: https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/
 3. Now it is time to setup the web interface: In your ```/etc/nginx/nginx.conf```, add the following in the include section: ```include /var/www/html/stream/restream.conf;``` (for www.exemple.com/stream) or wherever you put your restream.conf file.
 4. Put all files to the root of your server (or in subfolder ```/var/www/html/stream/``` for (www.exemple.com/stream), rename ```htaccess``` to ```.htaccess```. 
